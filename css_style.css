@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(236, 218, 247);
+    font-family:'Times New Roman', Times, serif;
+    background-image: url("https://e7.pngegg.com/pngimages/612/229/png-clipart-light-blue-sky-pattern-beautiful-stars-blue-geometric-shapes-illustration-texture-blue-thumbnail.png");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: darkslategray
+}
+header{
+    background:rgb(72, 131, 76);
+    color: rgb(64, 66, 176);
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 30px  darkred;
+    text-align: center;
+    margin: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(116, 27, 144);
+    border-bottom-width: 5px;
+}
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    color: rgb(255, 230, 0);
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+}
+
+.nav-main ul li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    }
+
+.iz{
+    float: left;
+    width: 20%;
+    background-color: rgb(255, 184, 51);
+    min-height: 250px;
+}
+
+nav {
+    color: rgb(245, 211, 179);
+}
+
+#menu ul li .link{
+    list-style: none;
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#menu ul li .link:hover{
+    background: rgb(255, 188, 2);
+    border-radius: 5px, 5px, 0px, 0px;
+}
+
+.text-with-shadow{
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+section{
+float: left;
+margin-bottom: 70px;
+width: 70%;
+color: rgb(0, 0, 0);
+}
+
+aside{
+    float: right;
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    background-image: url("https://e7.pngegg.com/pngimages/81/286/png-clipart-frontiers-of-physics-research-science-thesis-physics-miscellaneous-angle-thumbnail.png");
+    
+}
+
+.espacio-vertical {
+    margin-top: 20px;
+}
+
+footer{
+    background-color:rgb(71, 118, 154);
+    color: wheat;
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	bottom: 0;
+	font-style: italic;
+    bottom: 0;
+    text-align: center;
+}
+/* styles.css */
+.background-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ajusta la altura al tamaño de la ventana */
+}
